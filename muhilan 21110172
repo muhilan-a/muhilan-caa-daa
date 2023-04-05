@@ -1,0 +1,33 @@
+def new(s1,s2,x,y):
+    m=[]
+    for i in range (x):
+        a=[]
+        for j in range (y):
+          m.append(a)
+          print(m[x][y])
+    print(m)
+    m[x][0]=s1[x]
+    m[0][y]=s2[y]
+    m[x][1]=0
+    m[1][y]=0
+    for i in range (x):
+        for j in range (y):
+             while(j>1 and x>1):
+                m[x][y]=0 
+                 
+           
+            
+    for i in range (x):
+        for j in range (y):
+            print(m[x][y])
+s1="muhilan"
+s2="maghilan"
+x=len(s1)
+print(x)
+
+y=len(s2)
+print(y)
+new(s1,s2,x,y)
+            
+            
+    
